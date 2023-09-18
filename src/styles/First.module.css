@@ -1,0 +1,46 @@
+.line {
+  border-bottom: 1px solid gray;
+  margin: 0.825em 0;
+}
+
+.form {
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media (min-width: 768px) {
+    max-width: 450px;
+    align-self: center;
+  }
+}
+
+.formElement {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.label {
+  padding-right: 8px;
+}
+
+.buttonWrapper {
+  text-align: end;
+}
+
+.submitButton {
+  margin: 24px 0;
+  width: 142px;
+}
+
+.inputWithError {
+  display: block;
+  width: 143px;
+}
+
+.errorText {
+  font-size: 0.75em;
+  line-height: 0.87em;
+  color: darkred;
+  margin-top: 6px;
+}
